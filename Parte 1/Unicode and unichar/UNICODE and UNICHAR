@@ -1,0 +1,13 @@
+UNICODE and UNICHAR
+The text that you see on the screen is stored in the computer as numbers. There is a mapping between these numbers and the character that gets displayed. This mapping is
+called Unicode. Sometimes in Excel it is useful to be able to explore this mapping — perhaps to investigate an unusual character, or even to generate one!
+For example, the letter A is character 65. You can test this in Excel by using =UNICODE("A"). To go the other way you can use =UNICHAR(65). This can be useful if you want
+to type a character that is not on your keyboard. The non-breaking space is character 160. To convert non-breaking spaces to regular spaces you could use 
+=SUBSTITUTE(A1,UNICHAR(160)," ").
+
+These functions were introduced in Excel 2013 for Windows and Excel 2011 for Mac. In previous versions you have the CODE and CHAR functions. These work similarly to 
+UNICODE and UNICHAR but the codes that they use are dependent on the computer operating system and language that you are using. We recommend using UNICODE and UNICHAR
+whenever possible.
+
+Try =UNICHAR(128512) (this may only work in more recent versions of Excel). If you have a recent version of Excel you can download this Unicode explorer. It will allow
+you to look at a few of the interesting characters available in Unicode, and also demonstrates some of the formula techniques recently introduced to Excel.
