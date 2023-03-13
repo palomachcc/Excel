@@ -1,16 +1,12 @@
 # Excel ![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
 
-#Parte 1
- Cleaning and manipulating text. Concatenar o unir textos, extraer partes de palabras. Removing and replacing text characters
- 
-##Parte 2
- Breve resumen de que contiene la parte 2
- 
-##Parte 3
- Breve resumen de que contiene la parte 3
+## :hammer:Repaso de algunas funciones utiles de excel.
 
-##Parte 4
- Breve resumen de que contiene la parte 4
+- `Parte 1`: Cleaning and manipulating text. Concatenar o unir textos, extraer partes de palabras. Removing and replacing text characters
+- `Parte 2`: descripción de la funcionalidad 2
+- `Parte 3`: descripción de la funcionalidade 2a relacionada con la funcionalidad 2
+- `Parte 4`: descripción de la funcionalidad 3
+
 
 
 ###Notas:
