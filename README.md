@@ -1,7 +1,7 @@
 # Excel
 
 ##Parte 1
- Cleaning and manipulating text. Concatenar o unir textos, extraer partes de palabras
+ Cleaning and manipulating text. Concatenar o unir textos, extraer partes de palabras. Removing and replacing text characters
  
 ##Parte 2
  Breve resumen de que contiene la parte 2
