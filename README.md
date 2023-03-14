@@ -3,7 +3,7 @@
 ## :hammer:Repaso de algunas funciones utiles de excel.
 
 - `Parte 1`: Cleaning and manipulating text. Concatenar o unir textos, extraer partes de palabras. Removing and replacing text characters
-- `Parte 2`: descripción de la funcionalidad 2
+- `Parte 2`: Format data
 - `Parte 3`: descripción de la funcionalidade 2a relacionada con la funcionalidad 2
 - `Parte 4`: descripción de la funcionalidad 3
 
