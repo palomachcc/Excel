@@ -7,7 +7,6 @@
 - `Parte 3`: descripción de la funcionalidade 2a relacionada con la funcionalidad 2
 - `Parte 4`: descripción de la funcionalidad 3
 
-https://emprenderte.co/blog/excel-frente-a-sql/#:~:text=Excel%20es%20%C3%BAtil%20para%20visualizaciones,relacionales%20en%20todo%20su%20potencial. SQL o excel
 
 ###Notas:
 
