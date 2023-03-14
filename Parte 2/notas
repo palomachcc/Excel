@@ -1,1 +1,13 @@
-parte 2
+
+
+YEARFRAC
+YEARFRAC is a function that calculated the percentage of a year that is between 2 dates. This is used in certain financial calculations, and can also be useful at other times.
+
+Rounding numbers
+Numbers in Excel are displayed to a certain precision (number of digits after the decimal point), but the full precision is stored behind the scenes and is used in calculations. You can change how many digits are displayed by modifying the cell formatting, which does not alter the underlying number, only how it is displayed. Sometimes you actually want to round a number to a certain precision. There are several functions that can help you do this: ROUND, ROUNDDOWN, and ROUNDUP.
+
+ROUND does what you might have learned at school: if the digit that you are rounding is 5 or more then it will go up to the next digit, if it is 4 or less then it will go down. For example, =ROUND(14.5,0) is 15, and =ROUND(14.4,0) is 14. For negative numbers it moves away from zero, so =ROUND(-14.5,0) is -15.
+
+ROUNDDOWN and ROUNDUP always move in a specific direction — it doesn't matter what the rounding digit is. ROUNDDOWN will always move towards zero and ROUNDUP moves away. So =ROUNDDOWN(14.9,0) will be 14 and =ROUNDUP(14.1,0) will be 15.
+
+Some related functions are MROUND, EVEN, ODD, CEILING.MATH (CEILING in previous versions), FLOOR.MATH (FLOOR in previous versions).
