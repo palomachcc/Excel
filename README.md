@@ -8,7 +8,7 @@
 - `Parte 4`: descripción de la funcionalidad 3
 
 
-###Notas:
+### Notas:
 
 -doble clic en la esquina inferior derecha, arrastra toda la formula o funcion hacia el final de la columna.
 -unir celdas asi como estan =A1&B1&B3 "concatenate operator"
