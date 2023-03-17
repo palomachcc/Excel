@@ -34,6 +34,5 @@ Lo siguiente que queda por hacer es convertir tipos de datos, generar fechas val
 - Conversion tipo (VALUE, TEXT)
 - Tiempo y fechas (DAY,YEAR,MONTH,NOW,TODAY, DATE)
 - Cálculos con fechas (DAYS, NETWORKDAYS, WORKDAY)
-- 
 
 [Invoice Report (3).xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/161d3b72-1d30-400f-8ddb-03a1b3d95c77/Invoice_Report_(3).xlsx)
