@@ -17,7 +17,7 @@ El objetivo de esta tarea es usar las herramientas de excel para limpiar y orden
 
 Contexto: Recibo un archivo (Hoja Supplier Invoice Statement) de un proveedor con los pagos realizados en el mes. La idea es ingresar esos datos a mi sistema. Todo se descarga y se realiza en una hoja de excel. 
 
-[Invoice Report Inicial.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4d8045d9-b902-44c5-af4f-fb069d7a695d/Invoice_Report_Inicial.xlsx)
+[Invoice Report Inicial.xlsx](https://github.com/palomachcc/Excel/blob/main/Parte%201/Invoice%20Report%20Inicial.xlsx)
 
 Muchos de los datos que necesito están agrupados en una misma columna o de a partes y también en formatos diferentes a como los tengo en el sistema. Otras celdas contienen caracteres raros sin ningún uso. 
 
