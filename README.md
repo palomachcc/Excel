@@ -7,19 +7,25 @@
 - `Parte 3`: descripción de la funcionalidade 2a relacionada con la funcionalidad 2
 - `Parte 4`: descripción de la funcionalidad 3
 
+-------
+A la hora de trabajar con datos es necesario que estén limpios y ordenados para asegurarnos de que sean coherentes. Esto también ayuda a reducir la posibilidad de errores y mejora la eficiencia a la hora de analizarlos. De esta manera es mas fácil detectar patrones o tendencias y poder así tomar decisiones informadas.
 
 ### Algunos ejercicios como ejemplo:
-
-A la hora de trabajar con datos es necesario que estén limpios y ordenados para asegurarnos de que sean coherentes. Esto también ayuda a reducir la posibilidad de errores y mejora la eficiencia a la hora de analizarlos. De esta manera es mas fácil detectar patrones o tendencias y poder así tomar decisiones informadas.
 
 #### Ejemplo Invoice Report
 El objetivo de esta tarea es usar las herramientas de excel para limpiar y ordenar los datos antes de empezar a trabajar con la información.
 
 Contexto: Recibo un archivo (Hoja Supplier Invoice Statement) de un proveedor con los pagos realizados en el mes. La idea es ingresar esos datos a mi sistema. Todo se descarga y se realiza en una hoja de excel. 
 
-[Invoice Report.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/106e9b8b-74d1-4ab0-a9bd-91b74a53624b/Invoice_Report.xlsx)
+[Invoice Report Inicial.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4d8045d9-b902-44c5-af4f-fb069d7a695d/Invoice_Report_Inicial.xlsx)
 
-Muchos de los datos que necesito están agrupados en una misma columna o de a partes y también en formatos diferentes a como los tengo en el sistema. Otras celdas contienen caracteres raros sin ningún uso. Con las siguientes funciones se resuelve los datos de texto de manera rápida:
+Muchos de los datos que necesito están agrupados en una misma columna o de a partes y también en formatos diferentes a como los tengo en el sistema. Otras celdas contienen caracteres raros sin ningún uso. 
+
+Excel tiene una variedad de funciones, que son simplemente procesos predefinidos por el programa.
+
+![image](https://user-images.githubusercontent.com/110131341/226074495-872e0e63-5b2e-4580-9f83-7cb564cccc41.png)
+
+Para empezar con la tarea, con las siguientes funciones se resuelven los datos de texto de manera rápida:
 
 - Unir de texto (CONCATENATE, &, CONCAT, TEXTJOIN)
 - Separar texto (LEFT, RIGHT, MID, FIND,LEN)
