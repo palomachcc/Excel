@@ -33,7 +33,7 @@ Para empezar con la tarea, con las siguientes funciones se resuelven los datos d
 - Limpieza y orden (CLEAN,TRIM UPPER,LOWER,PROPER)
 - Remover y reemplazar (SUBSTITUTE)
 
-[Invoice Report (2).xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a75e61ad-43e2-4f7e-a5fb-7faf31a237e3/Invoice_Report_(2).xlsx)
+[Invoice Report (2).xlsx](https://github.com/palomachcc/Excel/raw/main/Parte%201/Invoice%20Report%20(2).xlsx)
 
 Lo siguiente que queda por hacer es convertir tipos de datos, generar fechas validas, y hacer cálculos con fechas (teniendo en cuenta días hábiles ) . Lo realizamos con las siguientes funciones:
 
@@ -41,4 +41,4 @@ Lo siguiente que queda por hacer es convertir tipos de datos, generar fechas val
 - Tiempo y fechas (DAY,YEAR,MONTH,NOW,TODAY, DATE)
 - Cálculos con fechas (DAYS, NETWORKDAYS, WORKDAY)
 
-[Invoice Report (3).xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7e592173-72f7-4f67-b2e4-89b1823e2024/Invoice_Report_(3).xlsx)
+[Invoice Report (3).xlsx](https://github.com/palomachcc/Excel/raw/main/Parte%202/Invoice%20Report%20(3).xlsx)
