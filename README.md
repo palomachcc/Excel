@@ -42,3 +42,27 @@ Lo siguiente que queda por hacer es convertir tipos de datos, generar fechas val
 - Cálculos con fechas (DAYS, NETWORKDAYS, WORKDAY)
 
 [Invoice Report (3).xlsx](https://github.com/palomachcc/Excel/raw/main/Parte%202/Invoice%20Report%20(3).xlsx)
+
+Una vez transformados y reordenados los datos, se puede pasar a los cálculos.
+
+Excel tiene la opción de nombrar celdas, rangos de celdas, tablas, formulas y constantes. 
+
+![administrador_nombres](https://user-images.githubusercontent.com/110131341/226122239-78d5d04d-e242-4fb3-95b9-f0794540ece8.png)
+
+Esto facilita la lectura y manejo de formulas. 
+
+Por cada día de retraso en el pago se cobra una penalidad (Penalty Rate) y una taza fija de $2 por día (Flat Rate). Tenemos que calcular si hubo retraso y, en tal caso, el recargo correspondiente (Late Charge). 
+
+Por otro lado, nos falta completar la hoja “Recon Analysis”. Tenemos que verificar si el pago total del proveedor coincide con el de nuestro sistema y calcular cuantas facturas corresponden a Sydney y cuantas a Melbourne.
+
+Para esto usamos:
+
+- Condicionales (IF, COUNTIF, SUMIF)
+- Funciones fecha
+- Nombre de celdas
+- Nombre de constantes (flat_rate)
+- Nombres definidos (Named Ranges). Administrador de nombres, cálculos y automatizado de acciones con rangos.
+
+[Invoice Report (4).xlsx](https://github.com/palomachcc/Excel/raw/main/Parte%203/Invoice%20Report%20(4).xlsx)
+
+Lo siguiente por hacer es “Validación de datos”. Esto se usa para restringir el tipo de dato o valor que puede ser ingresado en una celda.
