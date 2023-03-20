@@ -65,7 +65,5 @@ Para esto usamos:
 
 [Invoice Report (4).xlsx](https://github.com/palomachcc/Excel/raw/main/Parte%203/Invoice%20Report%20(4).xlsx)
 
-Lo siguiente por hacer es “Validación de datos”. Esto se usa para restringir el tipo de dato o valor que puede ser ingresado en una celda.
-
-![validacion_datos](https://user-images.githubusercontent.com/110131341/226122970-8618a9af-2e27-432a-a829-c11500b18ce9.JPG)
+Lo siguiente por hacer es 
 
