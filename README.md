@@ -65,7 +65,7 @@ Para esto usamos:
 
 [Invoice Report (4).xlsx](https://github.com/palomachcc/Excel/raw/main/Parte%203/Invoice%20Report%20(4).xlsx)
 
-Hasta aca, lo básico. 
+Hasta aca, lo básico. El plan es que el trabajo se actualice a medida que se agregan datos mensualmente. Con lo visto hasta ahora, eso debe realizarse manualmente.
 
 Para facilitar la administración, extracción de información y el análisis de un grupo de datos relacionados es conveniente tener un proceso estructurado y automatizado. Así se evitan errores y se ahorra tiempo. Podemos usar Macros o simplemente crear Tablas. En este caso voy a usar Tablas. 
 
@@ -96,3 +96,9 @@ Una vez creada una tabla debemos tener en cuenta que los datos contenidos en ell
 
 | Con ref. celda | =SUMAR.SI(I5:I88,'Recon Analysis'!A8,J5:J88) |
 | --- | --- |
+
+Algunas preguntas que podríamos hacernos y responder de manera rápida con lo visto hasta ahora:
+
+1. A que región corresponden las facturas mas elevadas?
+2. Cuantos pagos vencidos hay por región? De cuanto es el recargo por vencimiento?
+3. En que mes hubo una mayor cantidad de pagos vencidos?
