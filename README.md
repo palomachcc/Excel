@@ -83,3 +83,16 @@ Tambien podemos agregar slicers, con la opción de Segmentación de datos, que p
 
 [Invoice Report (5).xlsx](https://github.com/palomachcc/Excel/raw/main/Parte%204/Invoice%20Report%20(5).xlsx)
 
+Una vez creada una tabla debemos tener en cuenta que los datos contenidos en ellas, al usar funciones, se ubican con referencias estructuradas. Por ejemplo:
+
+| Con tabla | =SUMAR.SI(tbl_MC[Location],$A8,tbl_MC[Amount]) |
+| --- | --- |
+
+| Con rango y tabla | =SUMAR.SI(Location,$A8,tbl_MC[Over Due By]) |
+| --- | --- |
+
+| Con rango | =SUMAR.SI(Location,A8,Amount_Paid) |
+| --- | --- |
+
+| Con ref. celda | =SUMAR.SI(I5:I88,'Recon Analysis'!A8,J5:J88) |
+| --- | --- |
