@@ -99,6 +99,4 @@ Una vez creada una tabla debemos tener en cuenta que los datos contenidos en ell
 
 Algunas preguntas que podríamos hacernos y responder de manera rápida con lo visto hasta ahora:
 
-1. A que región corresponden las facturas mas elevadas?
-2. Cuantos pagos vencidos hay por región? De cuanto es el recargo por vencimiento?
-3. En que mes hubo una mayor cantidad de pagos vencidos?
+
