@@ -4,7 +4,7 @@
 
 - `Parte 1`: Cleaning and manipulating text. Concatenar o unir textos, extraer partes de palabras. Removing and replacing text characters
 - `Parte 2`: Format data. Varias funciones utiles para cuando laburas con fechas, calculos con dias habiles o vacaciones etc.
-- `Parte 3`: descripción de la funcionalidade 2a relacionada con la funcionalidad 2
+- `Parte 3`: Cell referencing and naming; Creating named ranges; Managing named ranges; Calculations with named ranges; and Automating processes with named ranges.
 - `Parte 4`: descripción de la funcionalidad 3
 
 -------
