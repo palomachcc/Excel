@@ -65,5 +65,21 @@ Para esto usamos:
 
 [Invoice Report (4).xlsx](https://github.com/palomachcc/Excel/raw/main/Parte%203/Invoice%20Report%20(4).xlsx)
 
-Lo siguiente por hacer es 
+Hasta aca, lo básico. 
+
+Para facilitar la administración, extracción de información y el análisis de un grupo de datos relacionados es conveniente tener un proceso estructurado y automatizado. Así se evitan errores y se ahorra tiempo. Podemos usar Macros o simplemente crear Tablas. En este caso voy a usar Tablas. 
+
+Los datos que se agregan a una Tabla toman su misma estructura, formato condicional y formulas, entre otras cosas. De este modo, también, se actualizan los rangos.
+
+![image1](https://user-images.githubusercontent.com/110131341/226460271-3fe22d0f-2229-4930-81e3-25e25be01f26.png)
+
+Una vez creada la tabla podemos ordenar y filtrar los datos según lo que necesitemos.
+
+![image2](https://user-images.githubusercontent.com/110131341/226460512-8cab21e6-d66a-4dcd-8b11-7da63f737061.png)
+
+Tambien podemos agregar slicers, con la opción de Segmentación de datos, que permiten insertar filtros de una manera interactiva. Además del filtrado rápido, las segmentaciones de datos también indican el estado de filtrado actual, lo que facilita la comprensión de lo que se muestra exactamente en ese momento.
+
+![image3](https://user-images.githubusercontent.com/110131341/226460687-01678920-5773-4af3-b91c-35d0587440dd.png)
+
+[Invoice Report (5).xlsx](https://github.com/palomachcc/Excel/raw/main/Parte%204/Invoice%20Report%20(5).xlsx)
 
