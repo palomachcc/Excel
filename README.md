@@ -97,6 +97,12 @@ Una vez creada una tabla debemos tener en cuenta que los datos contenidos en ell
 | Con ref. celda | =SUMAR.SI(I5:I88,'Recon Analysis'!A8,J5:J88) |
 | --- | --- |
 
-Algunas preguntas que podríamos hacernos y responder de manera rápida con lo visto hasta ahora:
 
+Quiero agregar un pago nuevo a la hoja “MC Invoice Report”, pero correspondiente a una nueva region llamada Perth. Debería agregar “Perth” a la hoja “Recon Analysis” donde tengo el resumen por zona. Armo una tabla (tbl_Region) para que los datos se actualicen solos. 
+
+[Invoice Report (6).xlsx](https://github.com/palomachcc/Excel/raw/main/Parte%204/Invoice%20Report%20(6).xlsx)
+
+Si deseo actualizar los registros antiguos con nuevos datos, basta con eliminar las filas correspondientes y agregar las nuevas. De esta manera, todas las operaciones de limpieza de datos previamente hechas se aplicarán automáticamente.
+
+![imagen1](https://user-images.githubusercontent.com/110131341/226633898-f846a296-e738-46c0-8204-a0ad757b700a.png)
 
