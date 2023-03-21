@@ -1,6 +1,6 @@
 # Excel ![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
 
-## :hammer:Repaso de algunas funciones utiles de excel.
+## :hammer:Repaso de algunas herramientas básicas de excel para limpieza y orden de datos.
 
 - `Parte 1`: Cleaning and manipulating text. Concatenar o unir textos, extraer partes de palabras. Removing and replacing text characters
 - `Parte 2`: Format data. Varias funciones utiles para cuando laburas con fechas, calculos con dias habiles o vacaciones etc.
@@ -10,12 +10,10 @@
 -------
 A la hora de trabajar con datos es necesario que estén limpios y ordenados para asegurarnos de que sean coherentes. Esto también ayuda a reducir la posibilidad de errores y mejora la eficiencia a la hora de analizarlos. De esta manera es mas fácil detectar patrones o tendencias y poder así tomar decisiones informadas.
 
-### Algunos ejercicios como ejemplo:
-
-#### Ejemplo Invoice Report
-El objetivo de esta tarea es usar las herramientas de excel para limpiar y ordenar los datos antes de empezar a trabajar con la información.
+### Ejemplo de un reporte de pagos.
 
 Contexto: Recibo un archivo (Hoja Supplier Invoice Statement) de un proveedor con los pagos realizados en el mes. La idea es ingresar esos datos a mi sistema. Todo se descarga y se realiza en una hoja de excel. 
+El objetivo de esta tarea es usar las herramientas de excel para limpiar y ordenar los datos antes de empezar a trabajar con la información.
 
 [Invoice Report Inicial.xlsx](https://github.com/palomachcc/Excel/raw/main/Parte%201/Invoice%20Report%20Inicial.xlsx)
 
