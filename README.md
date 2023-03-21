@@ -127,3 +127,15 @@ En la planilla del proveedor hay unos registros que corresponden a créditos (Ty
 | Celda | Fórmula |
 | --- | --- |
 | tbl_Supplier[[#Encabezados],[$ Amount]] | =VALOR(SUSTITUIR(SUSTITUIR(F2,"S",""),EXTRAE(F2,2,1),""))*SI([@Type]="CR",-1,1) |
+
+
+Supongamos que ahora me dicen que los recargos por vencimiento son condicionales según la cantidad de días de retraso:
+
+| Over Due by | Charge|
+| --- | --- |
+| 0 | $0.00 |
+| 1 | $2.25 |
+| 5 | $5.50 |
+| 10 | $10.80 |
+| 15 | $25.90 |
+
