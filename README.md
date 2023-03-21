@@ -115,7 +115,7 @@ Si deseo actualizar los registros antiguos con nuevos datos, basta con eliminar 
 
 
 
-#### Operaciones lógicas
+#### Condicionales
 
 - IF encadenados
 - Funciones LOOKUP (categorización y match), INDEX, MATCH.
@@ -129,7 +129,9 @@ En la planilla del proveedor hay unos registros que corresponden a créditos (Ty
 | tbl_Supplier[[#Encabezados],[$ Amount]] | =VALOR(SUSTITUIR(SUSTITUIR(F2,"S",""),EXTRAE(F2,2,1),""))*SI([@Type]="CR",-1,1) |
 
 
+<br><br>
 Supongamos que ahora me dicen que los recargos por vencimiento son condicionales según la cantidad de días de retraso:
+
 
 | Over Due by | Charge|
 | --- | --- |
