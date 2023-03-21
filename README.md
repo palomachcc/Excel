@@ -104,3 +104,16 @@ Si deseo actualizar los registros antiguos con nuevos datos, basta con eliminar 
 
 ![imagen1](https://user-images.githubusercontent.com/110131341/226633898-f846a296-e738-46c0-8204-a0ad757b700a.png)
 
+
+#### Operaciones lógicas
+
+- IF encadenados
+- Funciones LOOKUP (categorización y match), INDEX, MATCH.
+
+En la hoja “Recon Analysis” puede observarse una diferencia entre el pago según el proveedor y según nuestro sistema.
+
+En la planilla del proveedor hay unos registros que corresponden a créditos (Type = CR). Estos valores deben restarse, puede que la diferencia se deba a eso. Para solucionarlo usamos un condicional tal que cada vez que aparezca un crédito, esa factura se reste del total.
+
+| Celda | Fórmula |
+| --- | --- |
+| tbl_Supplier[[#Encabezados],[$ Amount]] | =VALOR(SUSTITUIR(SUSTITUIR(F2,"S",""),EXTRAE(F2,2,1),""))*SI([@Type]="CR",-1,1) |
