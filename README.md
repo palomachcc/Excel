@@ -70,6 +70,10 @@ Para esto usamos:
 
 Hasta aca, lo básico. El plan es que el trabajo se actualice a medida que se agregan datos mensualmente. Con lo visto hasta ahora, eso debe realizarse manualmente.
 
+
+
+#### Tablas
+
 Para facilitar la administración, extracción de información y el análisis de un grupo de datos relacionados es conveniente tener un proceso estructurado y automatizado. Así se evitan errores y se ahorra tiempo. Podemos usar Macros o simplemente crear Tablas. En este caso voy a usar Tablas. 
 
 Los datos que se agregan a una Tabla toman su misma estructura, formato condicional y formulas, entre otras cosas. De este modo, también, se actualizan los rangos.
