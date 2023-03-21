@@ -130,8 +130,7 @@ En la planilla del proveedor hay unos registros que corresponden a créditos (Ty
 
 
 <br><br>
-Supongamos que ahora me dicen que los recargos por vencimiento son condicionales según la cantidad de días de retraso:
-
+Supongamos que ahora me dicen que los recargos por vencimiento son condicionales según la región y según la cantidad de días de retraso. Si se trata de Melbourne, se cobra $5 por cada día de vencimiento. Si se trata de Sydney, usamos la nueva tabla de penalidades:
 
 | Over Due by | Charge|
 | --- | --- |
@@ -141,3 +140,6 @@ Supongamos que ahora me dicen que los recargos por vencimiento son condicionales
 | 10 | $10.80 |
 | 15 | $25.90 |
 
+En resumen, quedaria el siguiente esquema 
+
+[![](https://mermaid.ink/img/pako:eNptj8EKgkAQhl9lGDoYKHTp4iGpzGMERRfXw-COJelubGsh5ru3ZYSH5jQM3_8xf4e5lowhFpV-5GcyFg6xUOBmme7opOHOKi-lhiiDIFg8E6pu-gkrbzb9h32pIxtJko0j196-lYpbiIbAkFqPZXGaVGTBkGXQBUzm2RgauTbplh-wY0WVbT989nOijzWbmkrp2nTvi0B75poFhm6VZC4CheodR43V-1blGFrTsI_NVTpVXNLJUI1h4b7i_gXy71og?type=png)](https://mermaid.live/edit#pako:eNptj8EKgkAQhl9lGDoYKHTp4iGpzGMERRfXw-COJelubGsh5ru3ZYSH5jQM3_8xf4e5lowhFpV-5GcyFg6xUOBmme7opOHOKi-lhiiDIFg8E6pu-gkrbzb9h32pIxtJko0j196-lYpbiIbAkFqPZXGaVGTBkGXQBUzm2RgauTbplh-wY0WVbT989nOijzWbmkrp2nTvi0B75poFhm6VZC4CheodR43V-1blGFrTsI_NVTpVXNLJUI1h4b7i_gXy71og)
