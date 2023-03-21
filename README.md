@@ -19,6 +19,9 @@ El objetivo de esta tarea es usar las herramientas de excel para limpiar y orden
 
 Muchos de los datos que necesito están agrupados en una misma columna o de a partes y también en formatos diferentes a como los tengo en el sistema. Otras celdas contienen caracteres raros sin ningún uso. 
 
+
+
+#### Funciones
 Excel tiene una variedad de funciones, que son simplemente procesos predefinidos por el programa.
 
 ![image](https://user-images.githubusercontent.com/110131341/226074495-872e0e63-5b2e-4580-9f83-7cb564cccc41.png)
@@ -43,6 +46,9 @@ Lo siguiente que queda por hacer es convertir tipos de datos, generar fechas val
 
 Una vez transformados y reordenados los datos, se puede pasar a los cálculos.
 
+
+
+#### Rangos de datos
 Excel tiene la opción de nombrar celdas, rangos de celdas, tablas, formulas y constantes. 
 
 <img src="https://user-images.githubusercontent.com/110131341/226122239-78d5d04d-e242-4fb3-95b9-f0794540ece8.png " width=40% height=40%>
@@ -102,6 +108,7 @@ Supongamos que quiero agregar un pago nuevo a la hoja “MC Invoice Report”, p
 Si deseo actualizar los registros antiguos con nuevos datos, basta con eliminar las filas correspondientes y agregar las nuevas. De esta manera, todas las operaciones de limpieza de datos previamente hechas se aplicarán automáticamente.
 
 ![imagen1](https://user-images.githubusercontent.com/110131341/226633898-f846a296-e738-46c0-8204-a0ad757b700a.png)
+
 
 
 #### Operaciones lógicas
