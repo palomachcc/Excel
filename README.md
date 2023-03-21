@@ -98,7 +98,7 @@ Una vez creada una tabla debemos tener en cuenta que los datos contenidos en ell
 | --- | --- |
 
 
-Quiero agregar un pago nuevo a la hoja “MC Invoice Report”, pero correspondiente a una nueva region llamada Perth. Debería agregar “Perth” a la hoja “Recon Analysis” donde tengo el resumen por zona. Armo una tabla (tbl_Region) para que los datos se actualicen solos. 
+Supongamos que quiero agregar un pago nuevo a la hoja “MC Invoice Report”, pero correspondiente a una nueva region llamada Perth. Debería agregar “Perth” a la hoja “Recon Analysis” donde tengo el resumen por zona. Armo una tabla (tbl_Region) para que los datos se actualicen solos. 
 
 [Invoice Report (6).xlsx](https://github.com/palomachcc/Excel/raw/main/Parte%204/Invoice%20Report%20(6).xlsx)
 
