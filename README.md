@@ -45,8 +45,7 @@ Una vez transformados y reordenados los datos, se puede pasar a los cálculos.
 
 Excel tiene la opción de nombrar celdas, rangos de celdas, tablas, formulas y constantes. 
 
-![administrador_nombres](https://user-images.githubusercontent.com/110131341/226122239-78d5d04d-e242-4fb3-95b9-f0794540ece8.png)
-
+<img src="https://user-images.githubusercontent.com/110131341/226122239-78d5d04d-e242-4fb3-95b9-f0794540ece8.png " width=40% height=40%>
 Esto facilita la lectura y manejo de formulas. 
 
 Por cada día de retraso en el pago se cobra una penalidad (Penalty Rate) y una taza fija de $2 por día (Flat Rate). Tenemos que calcular si hubo retraso y, en tal caso, el recargo correspondiente (Late Charge). 
