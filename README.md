@@ -166,6 +166,6 @@ Notas:
 
 -El rango de datos debe estar ordenado de menor a mayor.
 
--Compara el dato del primer parámetro con la primer columna del rango de datos indicado. En el tercer parametro especificamos la columna que contiene los posibles resultados.
+-Compara el primer parámetro con la primer columna del rango de datos indicado. En el tercer parametro especificamos la columna que contiene los posibles resultados.
 
 -La “V” se refiere a vertical. Esta funcion sirve solamente si la info esta organizada verticalmente. Para info horizontal usamos HLOOKUP.
