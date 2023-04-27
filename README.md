@@ -36,7 +36,7 @@ Para empezar con la tarea, con las siguientes funciones se resuelven los datos d
 
 [Invoice Report (2).xlsx](https://github.com/palomachcc/Excel/raw/main/Parte%201/Invoice%20Report%20(2).xlsx)
 
-Lo siguiente que queda por hacer es convertir tipos de datos, generar fechas validas, y hacer cálculos con fechas (teniendo en cuenta días hábiles ) . Lo realizamos con las siguientes funciones:
+Lo siguiente que queda por hacer es convertir tipos de datos, generar fechas validas, y hacer cálculos con fechas (teniendo en cuenta días hábiles ). Lo realizamos con las siguientes funciones:
 
 - Conversion tipo (VALUE, TEXT)
 - Tiempo y fechas (DAY,YEAR,MONTH,NOW,TODAY, DATE)
