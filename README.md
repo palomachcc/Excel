@@ -2,7 +2,7 @@
 
 ## :hammer:Repaso de algunas herramientas básicas de excel para limpieza y orden de datos.
 
-- `Parte 1`: Cleaning and manipulating text. Concatenar o unir textos, extraer partes de palabras. Removing and replacing text characters
+- `Parte 1`: Cleaning and manipulating text. Concatenar o unir textos, extraccion de partes. Removing and replacing text characters
 - `Parte 2`: Format data. Varias funciones utiles para cuando laburas con fechas, calculos con dias habiles o vacaciones etc.
 - `Parte 3`: Cell referencing and naming; Creating named ranges; Managing named ranges; Calculations with named ranges; and Automating processes with named ranges.
 - `Parte 4`: Tablas, referencias estructuradas.
