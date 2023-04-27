@@ -28,7 +28,7 @@ Excel tiene una variedad de funciones, que son simplemente procesos predefinidos
 
 Para empezar con la tarea, con las siguientes funciones se resuelven los datos de texto de manera rápida:
 
-- Unir de texto (CONCATENATE, &, CONCAT, TEXTJOIN)
+- Union de texto (CONCATENATE, &, CONCAT, TEXTJOIN)
 - Separar texto (LEFT, RIGHT, MID, FIND,LEN)
 - info para combinar con otras funciones(FIND,LEN)
 - Limpieza y orden (CLEAN,TRIM UPPER,LOWER,PROPER)
