@@ -145,3 +145,27 @@ En resumen, quedaria el siguiente esquema
 [![](https://mermaid.ink/img/pako:eNptj8EKgkAQhl9lGDoYKHTp4iGpzGMERRfXw-COJelubGsh5ru3ZYSH5jQM3_8xf4e5lowhFpV-5GcyFg6xUOBmme7opOHOKi-lhiiDIFg8E6pu-gkrbzb9h32pIxtJko0j196-lYpbiIbAkFqPZXGaVGTBkGXQBUzm2RgauTbplh-wY0WVbT989nOijzWbmkrp2nTvi0B75poFhm6VZC4CheodR43V-1blGFrTsI_NVTpVXNLJUI1h4b7i_gXy71og?type=png)](https://mermaid.live/edit#pako:eNptj8EKgkAQhl9lGDoYKHTp4iGpzGMERRfXw-COJelubGsh5ru3ZYSH5jQM3_8xf4e5lowhFpV-5GcyFg6xUOBmme7opOHOKi-lhiiDIFg8E6pu-gkrbzb9h32pIxtJko0j196-lYpbiIbAkFqPZXGaVGTBkGXQBUzm2RgauTbplh-wY0WVbT989nOijzWbmkrp2nTvi0B75poFhm6VZC4CheodR43V-1blGFrTsI_NVTpVXNLJUI1h4b7i_gXy71og)
 
 [Invoice Report (7).xlsx](https://github.com/palomachcc/Excel/raw/main/Parte%205/Invoice%20Report%20(7).xlsx)
+
+El condicional IF (SI en español) solo puede manejar dos resultados. Una opción es usar varios “IF” encadenados. Si quiero agregar mas de una prueba lógica puedo usar OR (devuelve verdadero si se cumple alguna de las condiciones) o AND (devuelve verdadero si se cumplen todas las condiciones).
+
+Otra opción es combinar el condicional IF (SI) con VLOOKUP (BUSCARV).
+
+Para este caso, primero ubicamos la penalidad correspondiente, teniendo en cuenta el diagrama previo:
+
+| Celda | Formula |
+| --- | --- |
+| O5 “New Penalty” | =SI([@Location]="Sydney";BUSCARV([@[Over Due By]];$Q$22:$R$26;2);5) |
+
+Estoy indicando lo siguiente: si la ubicación coincide con Sydney, devolver el resultado de la funcion BUSCARV, de lo contrario, el resultado es 5. 
+
+Lo que hace la funcion BUSCARV en este caso es evaluar los días de retraso y devolver la penalidad correspondiente según los días vencidos. Por ejemplo, entre 10 y 15 días se cobra $10.80.
+
+Notas:
+
+-BUSCARV (dias de retraso, rango de datos donde busco la info, columna que deseo devolver del rango de datos).
+
+-El rango de datos debe estar ordenado de menor a mayor.
+
+-Compara el dato del primer parámetro con la primer columna del rango de datos indicado. En el tercer parametro especificamos la columna que contiene los posibles resultados.
+
+-La “V” se refiere a vertical. Esta funcion sirve solamente si la info esta organizada verticalmente. Para info horizontal usamos HLOOKUP.
