@@ -12,7 +12,7 @@ A la hora de trabajar con datos es necesario que estén limpios y ordenados para
 
 ### Ejemplo de un reporte de pagos.
 
-Contexto: Recibo un archivo (Hoja Supplier Invoice Statement) de un proveedor con los pagos realizados en el mes. La idea es ingresar esos datos a mi sistema. Todo se descarga y se realiza en una hoja de excel. 
+Contexto: Recibo un archivo (Hoja Supplier Invoice Statement) de un proveedor con los pagos realizados en el mes (Abril). La idea es ingresar esos datos a mi sistema, verificando que todo coincide y esta en orden (MC Invoice Report). Todo se descarga y se realiza en una hoja de excel. 
 El objetivo de esta tarea es usar las herramientas de excel para limpiar y ordenar los datos antes de empezar a trabajar con la información.
 
 [Invoice Report Inicial.xlsx](https://github.com/palomachcc/Excel/raw/main/Parte%201/Invoice%20Report%20Inicial.xlsx)
