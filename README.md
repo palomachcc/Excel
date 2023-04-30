@@ -79,6 +79,7 @@ Para facilitar la administración, extracción de información y el análisis de
 Los datos que se agregan a una Tabla toman su misma estructura, formato condicional y formulas, entre otras cosas. De este modo, también, se actualizan los rangos.
 
 ![image1](https://user-images.githubusercontent.com/110131341/226460271-3fe22d0f-2229-4930-81e3-25e25be01f26.png)
+(Ctrl+T)
 
 Una vez creada la tabla podemos ordenar y filtrar los datos según lo que necesitemos.
 
@@ -88,7 +89,7 @@ Tambien podemos agregar slicers, con la opción de Segmentación de datos, que p
 
 ![image3](https://user-images.githubusercontent.com/110131341/226460687-01678920-5773-4af3-b91c-35d0587440dd.png)
 
-[Invoice Report (5).xlsx](https://github.com/palomachcc/Excel/raw/main/Parte%204/Invoice%20Report%20(5).xlsx)
+[Invoice Report (5).xlsx](https://github.com/palomachcc/Excel/blob/main/Parte%204/Invoice%20Report%20(5).xlsx)
 
 Una vez creada una tabla debemos tener en cuenta que los datos contenidos en ellas, al usar funciones, se ubican con referencias estructuradas. Por ejemplo:
 
@@ -107,27 +108,29 @@ Una vez creada una tabla debemos tener en cuenta que los datos contenidos en ell
 
 Supongamos que quiero agregar un pago nuevo a la hoja “MC Invoice Report”, pero correspondiente a una nueva region llamada Perth. Debería agregar “Perth” a la hoja “Recon Analysis” donde tengo el resumen por zona. Armo una tabla (tbl_Region) para que los datos se actualicen solos. 
 
-[Invoice Report (6).xlsx](https://github.com/palomachcc/Excel/raw/main/Parte%204/Invoice%20Report%20(6).xlsx)
+[Invoice Report_ejemplo_Perth.xlsx](https://github.com/palomachcc/Excel/blob/main/Parte%205/Invoice%20Report_ejemplo_Perth.xlsx)
 
-Si deseo actualizar los registros antiguos con nuevos datos, basta con eliminar las filas correspondientes y agregar las nuevas. De esta manera, todas las operaciones de limpieza de datos previamente hechas se aplicarán automáticamente.
+Si deseo actualizar los registros antiguos con nuevos datos, basta con eliminar las filas correspondientes (no elimina la tabla) y agregar las nuevas. De esta manera, todas las operaciones de limpieza de datos previamente hechas se aplicarán automáticamente.
 
 ![imagen1](https://user-images.githubusercontent.com/110131341/226633898-f846a296-e738-46c0-8204-a0ad757b700a.png)
 
+En caso de querer eliminar la tabla, los datos se mantienen. Para eso usamos la opcion "Convertir en rango".
 
-
-#### Condicionales
+#### Operaciones lógicas y condicionales
 
 - IF encadenados
 - Funciones LOOKUP (categorización y match), INDEX, MATCH.
 
-En la hoja “Recon Analysis” puede observarse una diferencia entre el pago según el proveedor y según nuestro sistema.
+En la hoja “Recon Analysis” puede observarse una diferencia entre el pago total según el proveedor y según nuestro sistema.
 
-En la planilla del proveedor hay unos registros que corresponden a créditos (Type = CR). Estos valores deben restarse, puede que la diferencia se deba a eso. Para solucionarlo usamos un condicional tal que cada vez que aparezca un crédito, esa factura se reste del total.
+En la planilla del proveedor hay unos registros que corresponden a créditos (Type = CR). Los totales correspondientes a estos creditos deben ser negativos, puede que la diferencia se deba a esto. Para solucionarlo usamos un condicional tal que cada vez que aparezca un crédito, esa factura se reste del total.
 
 | Celda | Fórmula |
 | --- | --- |
 | tbl_Supplier[[#Encabezados],[$ Amount]] | =VALOR(SUSTITUIR(SUSTITUIR(F2,"S",""),EXTRAE(F2,2,1),""))*SI([@Type]="CR",-1,1) |
 
+Es decir, si en la columna Type aparece CR, multiplica el amount por -1.
+La diferencia se resuelve.
 
 <br><br>
 Supongamos que ahora me dicen que los recargos por vencimiento son condicionales según la región y según la cantidad de días de retraso. Si se trata de Melbourne, se cobra $5 por cada día de vencimiento. Si se trata de Sydney, usamos la nueva tabla de penalidades:
