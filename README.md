@@ -147,7 +147,7 @@ En resumen, quedaria el siguiente esquema
 
 [![](https://mermaid.ink/img/pako:eNptj8EKgkAQhl9lGDoYKHTp4iGpzGMERRfXw-COJelubGsh5ru3ZYSH5jQM3_8xf4e5lowhFpV-5GcyFg6xUOBmme7opOHOKi-lhiiDIFg8E6pu-gkrbzb9h32pIxtJko0j196-lYpbiIbAkFqPZXGaVGTBkGXQBUzm2RgauTbplh-wY0WVbT989nOijzWbmkrp2nTvi0B75poFhm6VZC4CheodR43V-1blGFrTsI_NVTpVXNLJUI1h4b7i_gXy71og?type=png)](https://mermaid.live/edit#pako:eNptj8EKgkAQhl9lGDoYKHTp4iGpzGMERRfXw-COJelubGsh5ru3ZYSH5jQM3_8xf4e5lowhFpV-5GcyFg6xUOBmme7opOHOKi-lhiiDIFg8E6pu-gkrbzb9h32pIxtJko0j196-lYpbiIbAkFqPZXGaVGTBkGXQBUzm2RgauTbplh-wY0WVbT989nOijzWbmkrp2nTvi0B75poFhm6VZC4CheodR43V-1blGFrTsI_NVTpVXNLJUI1h4b7i_gXy71og)
 
-[Invoice Report (7).xlsx](https://github.com/palomachcc/Excel/raw/main/Parte%205/Invoice%20Report%20(7).xlsx)
+[Invoice Report (7).xlsx](https://github.com/palomachcc/Excel/blob/main/Parte%205/Invoice%20Report%20(7).xlsx)
 
 El condicional IF (SI en español) solo puede manejar dos resultados. Una opción es usar varios “IF” encadenados. Si quiero agregar mas de una prueba lógica puedo usar OR (devuelve verdadero si se cumple alguna de las condiciones) o AND (devuelve verdadero si se cumplen todas las condiciones).
 
