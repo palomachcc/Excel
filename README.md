@@ -185,3 +185,4 @@ Tambien existe la funcion XLOOKUP (BUSCARX en español) que tiene mas variedad d
 [Invoice Report (8).xlsx](https://github.com/palomachcc/Excel/blob/main/Parte%205/Invoice%20Report%20(8).xlsx)
 
 Comparando los valores te das cuenta que hay una diferencia, los valores estan bien pero uno de los ID se repite y eso lleva a un error. Corrigiendo eso, queda todo en orden.
+[Invoice Report Final.xlsx](https://github.com/palomachcc/Excel/blob/main/Parte%205/Invoice%20Report%20Final.xlsx)
