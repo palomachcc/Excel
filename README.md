@@ -172,3 +172,16 @@ Notas:
 -Compara el primer parámetro con la primer columna del rango de datos indicado. En el tercer parametro especificamos la columna que contiene los posibles resultados.
 
 -La “V” se refiere a vertical. Esta funcion sirve solamente si la info esta organizada verticalmente. Para info horizontal usamos HLOOKUP.
+
+Otro uso que le podríamos dar a la funcion es el de verificar que el valor de cada factura, según el proveedor, coincide con los valores que tengo en mi sistema. 
+
+El “ID” de cada factura es el numero de pago. Armo una columna nueva donde evaluo, según el numero de pago, cuales son los valores de cada factura y si hay diferencia entre ellos.
+
+| Verificación valores (celda U2 en “Supplier Invoice Statement”) | = Q2-BUSCARV(tbl_Supplier[@[Payment No]];tbl_MC;10;FALSO) |
+| --- | --- |
+
+Tambien existe la funcion XLOOKUP (BUSCARX en español) que tiene mas variedad de opciones para la búsqueda pero no se encuentra en todas las versiones de Excel.
+
+[Invoice Report (8).xlsx](https://github.com/palomachcc/Excel/blob/main/Parte%205/Invoice%20Report%20(8).xlsx)
+
+Comparando los valores te das cuenta que hay una diferencia, los valores estan bien pero uno de los ID se repite y eso lleva a un error. Corrigiendo eso, queda todo en orden.
