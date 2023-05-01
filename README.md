@@ -10,6 +10,16 @@
 -------
 A la hora de trabajar con datos es necesario que estén limpios y ordenados para asegurarnos de que sean coherentes. Esto también ayuda a reducir la posibilidad de errores y mejora la eficiencia a la hora de analizarlos. De esta manera es mas fácil detectar patrones o tendencias y poder así tomar decisiones informadas.
 
+
+<details>
+<summary>Preview</summary>
+
+{% highlight ruby %}
+puts 'Expanded message'
+{% endhighlight %}
+
+</details>
+
 ### Ejemplo de un reporte de pagos.
 
 Contexto: Recibo un archivo (Hoja Supplier Invoice Statement) de un proveedor con los pagos realizados en el mes (Abril). La idea es ingresar esos datos a mi sistema, verificando que todo coincide y esta en orden (MC Invoice Report). Todo se descarga y se realiza en una hoja de excel. 
