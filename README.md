@@ -11,16 +11,7 @@
 A la hora de trabajar con datos es necesario que estén limpios y ordenados para asegurarnos de que sean coherentes. Esto también ayuda a reducir la posibilidad de errores y mejora la eficiencia a la hora de analizarlos. De esta manera es mas fácil detectar patrones o tendencias y poder así tomar decisiones informadas.
 
 
-<details>
-<summary>Preview</summary>
-
-{% highlight ruby %}
-puts 'Expanded message'
-{% endhighlight %}
-
-</details>
-
-### Ejemplo de un reporte de pagos.
+### Ejemplo 1. Reporte de pagos
 
 Contexto: Recibo un archivo (Hoja Supplier Invoice Statement) de un proveedor con los pagos realizados en el mes (Abril). La idea es ingresar esos datos a mi sistema, verificando que todo coincide y esta en orden (MC Invoice Report). Todo se descarga y se realiza en una hoja de excel. 
 El objetivo de esta tarea es usar las herramientas de excel para limpiar y ordenar los datos antes de empezar a trabajar con la información.
@@ -196,3 +187,22 @@ Tambien existe la funcion XLOOKUP (BUSCARX en español) que tiene mas variedad d
 
 Comparando los valores te das cuenta que hay una diferencia, los valores estan bien pero uno de los ID se repite y eso lleva a un error. Corrigiendo eso, queda todo en orden.
 [Invoice Report Final.xlsx](https://github.com/palomachcc/Excel/blob/main/Parte%205/Invoice%20Report%20Final.xlsx)
+
+
+### Ejemplo 2. Buscador 
+
+Tengo un archivo con la poblacion respectiva de diferentes paises. 
+[Country_Population_Inicial.xlsx](https://github.com/palomachcc/Excel/blob/main/Parte%205/Country_Population_Inicial.xlsx)
+
+La idea es poder ingresar el pais en una celda y que me devuelva automaticamente la poblacion correspondiente. Para esto son utiles las funciones INDICE (INDEX) y COINCIDIR (MATCH).
+
+-La función COINCIDIR busca un elemento determinado en un intervalo de celdas y después devuelve la posición relativa de dicho elemento en el rango. Por ejemplo, si el rango A1:A3 contiene los valores 5, 25 y 38, la fórmula =COINCIDIR(25,A1:A3,0) devuelve el número 2, porque 25 es el segundo elemento del rango.
+-La función INDICE nos permite encontrar un valor en un rango (matriz) especificando el valor de la posición del dato buscado a través de la fila y la columna. Por ejemplo, si quiero buscar la poblacion de Argelia que se encuentra tercera en la columna "Population", escribo =INDICE(Population,3) =INDICE(columna,fila).
+
+
+Lo primero que hago es nombrar rangos de datos, uno para cada columna. (ctrl+shift+f3)
+Para la celda B4 uso lo que vimos de validacion de datos, de modo que me quede una lista desplegable de los paises (rango "Ctry").
+
+[Country_Population_Final.xlsx](https://github.com/palomachcc/Excel/blob/main/Parte%205/Country_Population_Final.xlsx)
+
+En la primer hoja del archivo busca solamente por pais. En la segunda hoja agrego mas opciones, es como quedaria el trabajo final.
