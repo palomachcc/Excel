@@ -229,4 +229,7 @@ La info que voy resumiendo puede ser plasmada en un dashboard. Para esto armamos
 
 ![image](https://user-images.githubusercontent.com/110131341/235735103-f65da6fd-8792-4963-979a-6c0ca1e59980.png)
 
-Copiamos y pegamos los graficos armados.
+Por ultimo copiamos y pegamos los graficos o tablas que sean necesarios. 
+[Sales (3).xlsx](https://github.com/palomachcc/Excel/blob/main/Parte%206/Sales%20(3).xlsx)
+
+
