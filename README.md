@@ -7,6 +7,7 @@
 - `Parte 3`: Cell referencing and naming; Creating named ranges; Managing named ranges; Calculations with named ranges; and Automating processes with named ranges.
 - `Parte 4`: Tablas, referencias estructuradas.
 - `Parte 5`: Operaciones logicas con IF, AND, OR. VLOOKUP, XLOOKUP, INDEX, MATCH.
+- `Parte 6`: Tablas dinámicas. 
 -------
 A la hora de trabajar con datos es necesario que estén limpios y ordenados para asegurarnos de que sean coherentes. Esto también ayuda a reducir la posibilidad de errores y mejora la eficiencia a la hora de analizarlos. De esta manera es mas fácil detectar patrones o tendencias y poder así tomar decisiones informadas.
 
