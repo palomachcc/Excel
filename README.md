@@ -207,3 +207,26 @@ Para la celda B4 uso lo que vimos de validacion de datos, de modo que me quede u
 [Country_Population_Final.xlsx](https://github.com/palomachcc/Excel/blob/main/Parte%205/Country_Population_Final.xlsx)
 
 En la primer hoja del archivo busca solamente por pais. En la segunda hoja agrego mas opciones, es como quedaria el trabajo final.
+
+### Ejemplo 3. Ventas
+[Sales.xlsx](https://github.com/palomachcc/Excel/blob/main/Parte%206/Sales.xlsx)
+
+En este archivo tengo las ventas del 2020 de ciertos productos de una empresa de alimentos. La idea es hacer un analisis rápido usando tablas dinamicas. 
+
+Lo primero que puedo hacer es armar una tabla con los datos y agregar una nueva columna llamada "Month", con el mes respectivo pero en texto. Con "ctrl + A" selecciono todos los datos de manera rapida.
+
+Armo una tabla dinamica para analizar las ventas por mes. Conviene tenerla en una hoja aparte para no mezclar los datos. En este caso la llamamos "Sales by month". Podemos agregar un grafico de linea. Con esto vemos que no hay una tendencia particular a lo largo del año pero si existe un pico de ventas en el mes de junio.
+
+Tambien podemos armar otra tabla dinamica para analizar las ventas por persona. En este caso uso un grafico de barras. Siempre se puede acomodar el formato, ordenar los datos de mayor a menor, colores, tipo de moneda, etc.
+
+[Sales (2).xlsx](https://github.com/palomachcc/Excel/blob/main/Parte%206/Sales%20(2).xlsx)
+
+Los valores pueden representarse de diferentes maneras. Por ejemplo, si agrego una tabla dinamica para los items vendidos segun la categoria, podria representar los valores en porcentaje respecto al total (un poco mas representativo que las cantidades por unidad). Selecciono los datos a representar-->clic derecho--> mostrar valores como.
+
+![image](https://user-images.githubusercontent.com/110131341/235736948-db9d1a33-0016-4f95-b83d-ad7a425f0d41.png)
+
+La info que voy resumiendo puede ser plasmada en un dashboard. Para esto armamos una nueva hoja. Unificamos el fondo, seleccionando todas las celdas haciendo clic en el extremo superior izquierdo y asignandole un color de fondo.
+
+![image](https://user-images.githubusercontent.com/110131341/235735103-f65da6fd-8792-4963-979a-6c0ca1e59980.png)
+
+Copiamos y pegamos los graficos armados.
