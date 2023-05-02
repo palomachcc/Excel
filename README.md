@@ -193,6 +193,7 @@ Comparando los valores te das cuenta que hay una diferencia, los valores estan b
 ### Ejemplo 2. Buscador 
 
 Tengo un archivo con la poblacion respectiva de diferentes paises. 
+
 [Country_Population_Inicial.xlsx](https://github.com/palomachcc/Excel/blob/main/Parte%205/Country_Population_Inicial.xlsx)
 
 La idea es poder ingresar el pais en una celda y que me devuelva automaticamente la poblacion correspondiente. Para esto son utiles las funciones INDICE (INDEX) y COINCIDIR (MATCH).
